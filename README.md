@@ -24,29 +24,23 @@ A modern e-commerce website built with Express.js, featuring a responsive design
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <your-repository-url>
-   cd fashion-store
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add your MongoDB connection string:
+2. Create a `.env` file in the root directory and add your MongoDB connection string:
    ```
    MONGODB_URI=your_mongodb_connection_string
    SESSION_SECRET=your_session_secret
    ```
 
-4. Start the server:
+3. Start the server:
    ```bash
    npm start
    ```
 
-5. Visit `http://localhost:3000` in your browser
+4. Visit `http://localhost:3000` in your browser
 
 ## Project Structure
 
@@ -75,17 +69,9 @@ fashion-store/
 - [ ] Email notifications
 - [ ] Social media authentication
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
